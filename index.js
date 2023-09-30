@@ -1,13 +1,13 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
-require('dotenv').config
+require('dotenv').config()
 
 const { readData, writeData } = require("./functions")
 
 app.use(bodyParser.json())
 
-const PORT = process.env.PORT
+const port = process.env.PORT
 const BACKEND_BASEURL = process.env.BACKEND_BASEURL
 //******************** Methods */
 
@@ -143,7 +143,7 @@ app.delete('/tvshows/:id', (req, res) => {
 
 
 //******************** Listener */
-app.listen(PORT, ()=> {
-    console.log(`Server is running on port ${process.env.BACKEND_BASEURL}`)
+app.listen(port, ()=> {
+    console.log(`Server is running on port ${port}`)
 })
 
