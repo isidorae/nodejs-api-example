@@ -1,1 +1,40 @@
-{"dishes":[{"id":1,"name":"Empanadas","origen":"Chile"},{"id":2,"name":"Ceviche","origen":"Perú"}],"series":[{"id":2,"title":"Flower of evil","genre":"drama","country":"Korea"},{"id":3,"title":"Alice in borderland","genre":"drama, fantasy, action","country":"Japan"},{"id":3,"title":"Scarlet Heart: Ryeo","genre":"drama","country":"Korea"},{"id":4,"title":"The Walking dead","genre":"drama","country":"US"}]}
+{
+    "dishes": [
+        {
+            "id": 1,
+            "name": "Empanadas",
+            "origen": "Chile"
+        },
+        {
+            "id": 2,
+            "name": "Ceviche",
+            "origen": "Perú"
+        }
+    ],
+    "series": [
+        {
+            "id": 2,
+            "title": "Flower of evil",
+            "genre": "drama",
+            "country": "Korea"
+        },
+        {
+            "id": 3,
+            "title": "Alice in borderland",
+            "genre": "drama, fantasy, action",
+            "country": "Japan"
+        },
+        {
+            "id": 3,
+            "title": "Scarlet Heart: Ryeo",
+            "genre": "drama",
+            "country": "Korea"
+        },
+        {
+            "id": 4,
+            "title": "The Walking dead",
+            "genre": "drama",
+            "country": "US"
+        }
+    ]
+}

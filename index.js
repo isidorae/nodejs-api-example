@@ -2,10 +2,12 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 require('dotenv').config()
+const cors = require('cors')
 
 const { readData, writeData } = require("./functions")
 
 app.use(bodyParser.json())
+app.use(cors())
 
 const port = process.env.PORT
 const BACKEND_BASEURL = process.env.BACKEND_BASEURL
